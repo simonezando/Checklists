@@ -17,6 +17,7 @@
 		8F2E205C1E3BE5B300E431C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2E205A1E3BE5B300E431C8 /* LaunchScreen.storyboard */; };
 		8F2E20641E3BF21300E431C8 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2E20631E3BF21300E431C8 /* ChecklistItem.swift */; };
 		8F2E20661E3C100E00E431C8 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2E20651E3C100E00E431C8 /* ItemDetailViewController.swift */; };
+		8F345FCA1E3D268F00A3B591 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F345FC91E3D268F00A3B591 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8F2E205D1E3BE5B300E431C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F2E20631E3BF21300E431C8 /* ChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 		8F2E20651E3C100E00E431C8 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ItemDetailViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8F345FC91E3D268F00A3B591 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				8F2E20531E3BE5B200E431C8 /* ChecklistViewController.swift */,
 				8F2E20651E3C100E00E431C8 /* ItemDetailViewController.swift */,
 				8F2E20551E3BE5B300E431C8 /* Main.storyboard */,
+				8F345FC91E3D268F00A3B591 /* DataModel.swift */,
 				8F2127571E3CEE9800798430 /* Checklist.swift */,
 				8F2E20631E3BF21300E431C8 /* ChecklistItem.swift */,
 				8F2E20581E3BE5B300E431C8 /* Assets.xcassets */,
@@ -157,6 +160,7 @@
 				8F2E20661E3C100E00E431C8 /* ItemDetailViewController.swift in Sources */,
 				8F2127581E3CEE9800798430 /* Checklist.swift in Sources */,
 				8F2E20641E3BF21300E431C8 /* ChecklistItem.swift in Sources */,
+				8F345FCA1E3D268F00A3B591 /* DataModel.swift in Sources */,
 				8F2127561E3CEAF100798430 /* AllListsViewController.swift in Sources */,
 				8F2E20521E3BE5B200E431C8 /* AppDelegate.swift in Sources */,
 			);
