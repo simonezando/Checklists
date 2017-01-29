@@ -10,11 +10,11 @@
 		8F2127561E3CEAF100798430 /* AllListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2127551E3CEAF100798430 /* AllListsViewController.swift */; };
 		8F2127581E3CEE9800798430 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2127571E3CEE9800798430 /* Checklist.swift */; };
 		8F21275A1E3CF43B00798430 /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2127591E3CF43B00798430 /* ListDetailViewController.swift */; };
+		8F2A731F1E3D6D9C00E55274 /* IconPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A731E1E3D6D9C00E55274 /* IconPickerViewController.swift */; };
 		8F2E20521E3BE5B200E431C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2E20511E3BE5B200E431C8 /* AppDelegate.swift */; };
 		8F2E20541E3BE5B200E431C8 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2E20531E3BE5B200E431C8 /* ChecklistViewController.swift */; };
 		8F2E20571E3BE5B300E431C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2E20551E3BE5B300E431C8 /* Main.storyboard */; };
 		8F2E20591E3BE5B300E431C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F2E20581E3BE5B300E431C8 /* Assets.xcassets */; };
-		8F2E205C1E3BE5B300E431C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2E205A1E3BE5B300E431C8 /* LaunchScreen.storyboard */; };
 		8F2E20641E3BF21300E431C8 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2E20631E3BF21300E431C8 /* ChecklistItem.swift */; };
 		8F2E20661E3C100E00E431C8 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2E20651E3C100E00E431C8 /* ItemDetailViewController.swift */; };
 		8F345FCA1E3D268F00A3B591 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F345FC91E3D268F00A3B591 /* DataModel.swift */; };
@@ -24,12 +24,12 @@
 		8F2127551E3CEAF100798430 /* AllListsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllListsViewController.swift; sourceTree = "<group>"; };
 		8F2127571E3CEE9800798430 /* Checklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
 		8F2127591E3CF43B00798430 /* ListDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDetailViewController.swift; sourceTree = "<group>"; };
+		8F2A731E1E3D6D9C00E55274 /* IconPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconPickerViewController.swift; sourceTree = "<group>"; };
 		8F2E204E1E3BE5B200E431C8 /* Checklists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2E20511E3BE5B200E431C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F2E20531E3BE5B200E431C8 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ChecklistViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8F2E20561E3BE5B300E431C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F2E20581E3BE5B300E431C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8F2E205B1E3BE5B300E431C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F2E205D1E3BE5B300E431C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F2E20631E3BF21300E431C8 /* ChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 		8F2E20651E3C100E00E431C8 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ItemDetailViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -68,6 +68,7 @@
 			children = (
 				8F2E20511E3BE5B200E431C8 /* AppDelegate.swift */,
 				8F2127551E3CEAF100798430 /* AllListsViewController.swift */,
+				8F2A731E1E3D6D9C00E55274 /* IconPickerViewController.swift */,
 				8F2127591E3CF43B00798430 /* ListDetailViewController.swift */,
 				8F2E20531E3BE5B200E431C8 /* ChecklistViewController.swift */,
 				8F2E20651E3C100E00E431C8 /* ItemDetailViewController.swift */,
@@ -76,7 +77,6 @@
 				8F2127571E3CEE9800798430 /* Checklist.swift */,
 				8F2E20631E3BF21300E431C8 /* ChecklistItem.swift */,
 				8F2E20581E3BE5B300E431C8 /* Assets.xcassets */,
-				8F2E205A1E3BE5B300E431C8 /* LaunchScreen.storyboard */,
 				8F2E205D1E3BE5B300E431C8 /* Info.plist */,
 			);
 			path = Checklists;
@@ -142,7 +142,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F2E205C1E3BE5B300E431C8 /* LaunchScreen.storyboard in Resources */,
 				8F2E20591E3BE5B300E431C8 /* Assets.xcassets in Resources */,
 				8F2E20571E3BE5B300E431C8 /* Main.storyboard in Resources */,
 			);
@@ -158,6 +157,7 @@
 				8F2E20541E3BE5B200E431C8 /* ChecklistViewController.swift in Sources */,
 				8F21275A1E3CF43B00798430 /* ListDetailViewController.swift in Sources */,
 				8F2E20661E3C100E00E431C8 /* ItemDetailViewController.swift in Sources */,
+				8F2A731F1E3D6D9C00E55274 /* IconPickerViewController.swift in Sources */,
 				8F2127581E3CEE9800798430 /* Checklist.swift in Sources */,
 				8F2E20641E3BF21300E431C8 /* ChecklistItem.swift in Sources */,
 				8F345FCA1E3D268F00A3B591 /* DataModel.swift in Sources */,
@@ -175,14 +175,6 @@
 				8F2E20561E3BE5B300E431C8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8F2E205A1E3BE5B300E431C8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F2E205B1E3BE5B300E431C8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
